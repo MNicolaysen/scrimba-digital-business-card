@@ -8,26 +8,19 @@ function Info() {
       <h2>Morton Nicolaysen</h2>
       <h3>Frontend Developer</h3>
       <div className="info-btn">
-        <button id="email-btn" className="email-btn">
-          <i class="fa-solid fa-envelope"></i> Email
-        </button>
-        <button id="linkedin-btn" className="linkedin-btn">
-          <i className="fa-brands fa-linkedin"></i> LinkedIn
-        </button>
+        <a href="mailto:morton.nicolaysen@gmail.com?subject=RE:Digital business card " target="_top">
+          <button id="email-btn" className="email-btn">
+            <i class="fa-solid fa-envelope"></i> Email
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/morton-nicolaysen/" target="_blank">
+          <button className="linkedin-btn">
+            <i className="fa-brands fa-linkedin"></i> LinkedIn
+          </button>
+        </a>
       </div>
     </div>
   );
 };
-
-// document.getElementById('email-btn').addEventListener("click", function() {
-//   const email = <a href="mailto:morton.nicolaysen@gmail.com" target="_top">morton.nicolaysen@gmail.com</a>
-//   document.location.href = email
-// });
-
-document.getElementById("linkedin-btn").addEventListener("click", function() {
-  window.open = "https://www.linkedin.com/in/morton-nicolaysen/".focus();
-})
-
-
 
 export default Info;

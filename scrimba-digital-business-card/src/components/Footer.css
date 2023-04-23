@@ -1,10 +1,14 @@
 .footer-icons {
-  color: #918E9B;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2.1rem;
   background-color: #161619;
+  text-decoration: none;
+}
+
+.footer-icons a {
+  color: #918E9B;
 }
 
 .footer-icons i {
