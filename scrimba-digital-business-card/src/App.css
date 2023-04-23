@@ -1,0 +1,8 @@
+.about, .interests {
+  color: white;
+  margin: 40px 30px;
+}
+
+.interests-heading, .about-heading {
+  line-height: 0.3rem;
+}
