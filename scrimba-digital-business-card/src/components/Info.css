@@ -1,0 +1,51 @@
+/* IMAGE  */
+
+img {
+  height: 350px;
+  width: 390px;
+  object-fit: cover;
+}
+
+/* TEXT */
+
+.info
+h2,
+h3 {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.info h2 {
+  margin-top: 1.5em;
+  line-height: 0.187rem;
+}
+
+.info h3 {
+  font-weight: lighter;
+  color: #F3BF99;
+  font-size: 1rem;
+}
+
+/* BUTTONS */
+
+.info-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.info button {
+  padding: 0.6em 0;
+  width: 10rem;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.linkedin-btn {
+  background-color: #5093E2;
+  color: white;
+}
+
+.email-btn {
+  margin-right: 15px;
+}
