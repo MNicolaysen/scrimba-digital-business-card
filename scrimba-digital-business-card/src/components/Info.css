@@ -1,8 +1,9 @@
 /* IMAGE  */
 
 img {
-  height: 350px;
-  width: 390px;
+  height: 400px;
+  min-width: 390px;
+  width: 500px;
   object-fit: cover;
 }
 
@@ -27,6 +28,12 @@ h3 {
   font-size: 1rem;
 }
 
+.block-info {
+  position: absolute;
+  left: 82px;
+  top: 410px;
+}
+
 /* BUTTONS */
 
 .info-btn {
@@ -39,6 +46,8 @@ h3 {
   width: 10rem;
   border-radius: 10px;
   font-size: 1em;
+  border-style: none;
+  cursor: pointer;
 }
 
 .linkedin-btn {
@@ -48,4 +57,15 @@ h3 {
 
 .email-btn {
   margin-right: 15px;
+}
+
+
+@media(min-width: 800px) {
+  .bio {
+    display: flex;
+  }
+
+  img .info-headers {
+    display: flex;
+  }
 }

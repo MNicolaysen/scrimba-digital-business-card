@@ -2,7 +2,7 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <div className="footer-icons">
+    <footer className="footer-icons">
       <a href="https://www.facebook.com/nicolaysen1995/" target="_blank">
       <i class="fa-brands fa-facebook"></i>
       </a>
@@ -12,7 +12,7 @@ function Footer() {
       <a href="https://github.com/MNicolaysen" target="_blank">
         <i class="fa-brands fa-github"></i>
       </a>
-    </div>
+    </footer>
   );
 };
 

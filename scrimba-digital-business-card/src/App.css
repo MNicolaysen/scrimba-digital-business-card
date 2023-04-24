@@ -6,3 +6,13 @@
 .interests-heading, .about-heading {
   line-height: 0.3rem;
 }
+
+@media (min-width: 800px) {
+  .about, .interests {
+    text-align: center;
+  }
+
+  .bio-info {
+    margin-bottom: 350px;
+  }
+}

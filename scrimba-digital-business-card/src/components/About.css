@@ -1,0 +1,9 @@
+.about {
+  margin-top: 180px;
+}
+
+@media (min-width: 800px) {
+  .about {
+    margin-top: 80px;
+  }
+}
